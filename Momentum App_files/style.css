@@ -1,0 +1,77 @@
+body {
+}
+.hidden {
+  display: none;
+}
+#helloText {
+  color: beige;
+  font-size: 100px;
+  text-align: center;
+  margin-bottom: 0;
+}
+#clock {
+  margin-left: 20px;
+  color: white;
+  font-size: 50px;
+}
+#quote {
+  margin-bottom: 50px;
+  color: whitesmoke;
+  text-align: center;
+}
+#greeting {
+  margin-top: 10px;
+  margin-bottom: 150px;
+  text-align: center;
+  color: beige;
+  font-size: 30px;
+}
+#todo-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+#todo-form input {
+  width: 500px;
+  height: 30px;
+  text-align: center;
+}
+#backgroundDiv {
+  position: absolute;
+  margin: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+#todo-list {
+  color: white;
+  margin-right: 20px;
+}
+button {
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 5px;
+  text-align: right;
+}
+.todo-list-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 500px;
+  padding-right: 500px;
+}
+#todo-list {
+  list-style-type: none;
+  float: none;
+}
+#todo-list li {
+  display: flex;
+  margin-bottom: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+#todo-list span {
+  margin-right: 10px;
+}
